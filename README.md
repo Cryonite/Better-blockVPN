@@ -10,6 +10,9 @@ ipsui.lua webhook screenshot:
 
 blockVPN server.lua webhook screenhot is the same but then in the color red.
 
+Edited by Cryonite
+
+You can use this for your own server.
 
 
 # Original post
