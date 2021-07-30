@@ -1,38 +1,4 @@
--- dit is een eigen knutseltje van mijzelf
--- In het kort dit logged iedereen zn steamnaam op zn ip adress in het bestandje: ips.log
--- dit is gewoon een klein checkje om zo evt misverstanden kunnen identificeren
 
--- local function OnPlayerConnecting(name, setKickReason, deferrals)
---   local player = source
---   local steamIdentifier
---   local neger
---   local identifiers = GetPlayerIdentifiers(player)
---   deferrals.defer()
-
---   -- mandatory wait!
---   Wait(0)
-
---   deferrals.update(string.format("Hello %s. Your Steam ID is being checked.", name))
-
---   for _, v, f in pairs(identifiers) do
---       if string.find(v, "steam", f, "neger") then
---           steamIdentifier = v
---           neger = f
---           break
---       end
---   end
-
---   -- mandatory wait!
---   Wait(0)
-
---   if not steamIdentifier then
---       deferrals.done("You are not connected to Steam.")
---   elseif not neger then
---       deferrals.done('Jij bent een neger')
---   else
---       deferrals.done()
---   end
--- end
 
 AddEventHandler("playerConnecting", OnPlayerConnecting)
 
