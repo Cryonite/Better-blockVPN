@@ -3,7 +3,7 @@
 --------------
 local ownerEmail = 'email'             -- Owner Email (Required) - No account needed (Used Incase of Issues)
 local kickThreshold = 0.99        -- Anything equal to or higher than this value will be kicked. (0.99 Recommended as Lowest)
-local kickReason = 'We\'ve detected that you\'re using a VPN or Proxy. If you believe this is a mistake please make a ticket in our discord server: https://discord.gg/fFuQd5rX7g'
+local kickReason = 'We\'ve detected that you\'re using a VPN or Proxy.'
 local VPN = 'Usage of VPN' -- man wordt geclapped door vpn met suggy sus saus huts enzo?
 local flags = 'm'				  -- Quickest and most accurate check. Checks IP blacklist.
 local printFailed = true
